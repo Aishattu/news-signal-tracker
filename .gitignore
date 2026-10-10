@@ -1,0 +1,9 @@
+# secrets
+.env
+# local python env
+.venv/
+__pycache__/
+# real lead data (names, emails) and run state stay local
+output/
+state/
+.DS_Store

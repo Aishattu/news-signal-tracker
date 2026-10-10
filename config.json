@@ -1,0 +1,32 @@
+{
+  "tracker_name": "Anaconda AI Adoption Tracker",
+  "client": "Anaconda (anaconda.com) - enterprise platform for secure open-source Python, data science and AI (package governance, model catalog, AI/ML workbench)",
+  "signal_definition": "A named enterprise (the adopter, not the vendor) scaling AI, machine learning or data science inside its own organization: rolling out an AI/ML or data science platform, building an internal AI platform or AI center of excellence, adopting open-source/self-hosted AI models, launching enterprise-wide AI programs, or migrating analytics/ML to Python. Strongest fit: regulated industries (financial services, insurance, healthcare/pharma, government, manufacturing, energy) where open-source security and governance matter.",
+  "exclude_definition": "Model launches, AI vendors announcing their own products, certifications/partner badges, funding rounds, surveys/reports, opinion pieces, event promos, awards, and vendor customer case-study pages.",
+  "lookback_days": 14,
+  "leads_per_run": 3,
+  "decision_maker_roles": ["Chief Data Officer", "Chief AI Officer", "CTO", "CIO", "VP/Head of Data Science", "Head of AI/ML Platform"],
+  "sites": [
+    {"domain": "prnewswire.com",    "rss": ""},
+    {"domain": "businesswire.com",  "rss": ""},
+    {"domain": "globenewswire.com", "rss": ""},
+    {"domain": "ciodive.com",       "rss": ""},
+    {"domain": "venturebeat.com",   "rss": ""}
+  ],
+  "signal_queries": [
+    "\"selects\" AI platform",
+    "\"deploys\" machine learning platform",
+    "\"rolls out\" AI enterprise-wide",
+    "\"adopts\" data science platform",
+    "\"launches\" AI center of excellence",
+    "\"open-source\" AI models \"deploys\"",
+    "\"builds\" internal AI platform",
+    "\"partners with\" to scale AI across"
+  ],
+  "headline_must_match": [],
+  "exclude_patterns": [
+    "raises \\$", "funding", "series [a-e]\\b", "specialization", "certif", "award",
+    "named a leader", "select partner", "survey", "report finds", "lawsuit",
+    "shareholders", "webinar", "conference", "summit", "market size", "market report"
+  ]
+}

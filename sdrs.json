@@ -1,0 +1,7 @@
+{
+ "slack_channel_name": "#ai-adoption-news-signal (set by the webhook in .env)",
+ "sdrs": [
+  {"name": "Sarah"},
+  {"name": "John"}
+ ]
+}
