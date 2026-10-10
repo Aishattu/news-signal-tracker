@@ -30,6 +30,6 @@ Requires the `clay` CLI (logged in) for email lookups.
 .venv/bin/python route_leads.py             # post to Slack
 ```
 
-## How it works (animated)
+## How it all connects
 
-[View the animated walkthrough](https://claude.ai/artifact/UxbY59JeZzoeU3QjS2hLgo)
+![How the News Signal Tracker works](docs/how-it-works.svg)
