@@ -29,3 +29,7 @@ Requires the `clay` CLI (logged in) for email lookups.
 .venv/bin/python route_leads.py --dry-run   # preview
 .venv/bin/python route_leads.py             # post to Slack
 ```
+
+## How it works (animated)
+
+[View the animated walkthrough](https://claude.ai/artifact/UxbY59JeZzoeU3QjS2hLgo)
