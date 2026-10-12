@@ -1,6 +1,23 @@
 # AI Adoption News Tracker
 
-Finds companies in the news that are rolling out AI, finds the right decision maker, gets their verified email and LinkedIn, then hands each lead to the next SDR in a Slack channel.
+Catches companies the moment they announce they are adopting AI, and puts the right decision maker in front of an SDR while the news is still fresh.
+
+## Why it was built
+
+This tracker was built for an AI governance company. A company only needs AI governance once it is actually using AI, so the strongest buying signal is simple: **this company just announced it is adopting AI.**
+
+Those announcements are scattered across press wires and news sites, and they go stale fast. Found by hand, the moment has usually passed before a rep reaches the right person.
+
+## What it solves
+
+This tracker turns that signal into a lead an SDR can act on the same day:
+
+- **No missed announcements.** It watches the news sources and picks up every new AI adoption story.
+- **No noise.** Only real "company X is adopting AI" stories get through. Vendor launches, funding news, surveys and promos are dropped, so reps are not chasing companies with no need for AI governance yet.
+- **No research time.** Each lead arrives with the current decision maker, a verified email and their LinkedIn.
+- **No dropped or duplicated leads.** Leads are handed out to SDRs in turn in Slack, so every one has an owner and the load is shared fairly.
+
+The result is outreach that lands with a reason to talk right now: the prospect just announced the exact thing the product exists to govern.
 
 ## How it works
 
